@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.product1{
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+        text-align: calc(50% - 95px);
+    
+}
+
+.product1 > img{
+   
+    
+
+    width: 130px;
+    height: 170px;
+    background-color: #f5f5f5;
+    padding: calc(50% - 95px);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.product1 > img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.product1 > h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+}
+.product1 > button{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product1 > button:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.product1 >input{
+    width: 50px;
+    width: 50px;
+    height: 30px;
+   margin-top: 10px;
+   margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
